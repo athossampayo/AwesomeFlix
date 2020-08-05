@@ -1,0 +1,30 @@
+li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    background-color: var(--blackLighter);
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 9px 0px var(--primary);
+    @media {
+        display: block;
+    }
+}
+
+li:first-of-type {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    background-color: var(--primary);
+    box-shadow: 0px 0px 5px 0px var(--primary);
+    text-align: center;
+    align-items: center;
+    @media {
+        display: block;
+    }
+}
